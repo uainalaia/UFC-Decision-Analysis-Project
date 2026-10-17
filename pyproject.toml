@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mma-decision-lab"
+version = "0.1.0"
+description = "Reproducible pre-fight tactical decision analysis under explicit assumptions"
+requires-python = ">=3.11"
+dependencies = [
+  "numpy>=2.2,<3", "pandas>=2.2,<3", "scipy>=1.15,<2",
+  "scikit-learn>=1.6,<2", "streamlit>=1.49,<2", "plotly>=6.3,<7",
+  "pydantic>=2.11,<3"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.4,<9", "ruff>=0.12,<1"]
+notebook = ["nbformat>=5.10,<6", "nbclient>=0.10,<1", "nbconvert>=7.16,<8", "ipykernel>=6.29,<8"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
+addopts = "--basetemp=tmp/pytest"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+ignore = ["E501"]
+
+[tool.ruff.lint.per-file-ignores]
+"app/main.py" = ["E402"]
+"scripts/*.py" = ["E402"]

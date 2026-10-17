@@ -1,0 +1,32 @@
+{
+  "keyboard": "Navigation, Apply assumptions, Run analysis, sensitivity forms and report generation operated with Enter; native Tab focus inspected.",
+  "focus": {
+    "captions": [
+      {
+        "color": "rgb(89, 101, 111)",
+        "opacity": "1"
+      },
+      {
+        "color": "rgb(89, 101, 111)",
+        "opacity": "1"
+      }
+    ],
+    "color": "rgb(36, 87, 166)",
+    "rect": {
+      "bottom": 509.953125,
+      "height": 28,
+      "left": 131.859375,
+      "right": 332.96875,
+      "top": 481.953125,
+      "width": 201.109375,
+      "x": 131.859375,
+      "y": 481.953125
+    },
+    "style": "solid",
+    "tag": "A",
+    "text": "Continue to outcome analysis",
+    "width": "3px"
+  },
+  "zoom": "Ctrl++ did not change the embedded browser viewport; true 200% browser zoom could not be verified. A 720px equivalent reflow viewport was inspected separately; this is a proxy, not a zoom pass.",
+  "screen_reader": "No screen-reader session available; accessible names/table headings and native roles inspected, no full WCAG certification."
+}

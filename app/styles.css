@@ -1,0 +1,35 @@
+/* Streamlit public theme handles native widget colors/fonts.
+   These isolated stable data-testid selectors adapt shell spacing and navigation width. */
+[data-testid="stMainBlockContainer"]{max-width:1280px;padding:2.5rem 3rem 4rem}
+[data-testid="stSidebar"] [data-testid="stSidebarNav"]{padding-top:8px}
+[data-testid="stSidebar"] [data-testid="stSidebarNavLink"]{min-height:40px;border-radius:6px}
+[data-testid="stSidebar"] [aria-current="page"]{background:#35424C;color:#fff;font-weight:600}
+[data-testid="stSidebar"] [data-testid="stCaptionContainer"]{color:#AEB9C2;font-size:13px}
+[data-testid="stCaptionContainer"]{opacity:1!important}
+[data-testid="stMain"] [data-testid="stCaptionContainer"]{color:#59656F!important}
+[data-testid="stSidebar"] h2{font-size:14px;color:#AEB9C2}
+[data-testid="stAppDeployButton"]{display:none}
+[data-testid="stMetricValue"]{font-variant-numeric:tabular-nums;font-size:28px}
+button,a,input,select,[role="slider"]{touch-action:manipulation}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,[role="slider"]:focus-visible{outline:3px solid #2457A6!important;outline-offset:3px!important}
+[data-testid="stSidebar"] a:focus-visible,[data-testid="stSidebar"] button:focus-visible{outline-color:#fff!important}
+.st-key-primary_link a{background:#882A3A;color:#fff!important;border-radius:6px;padding:10px 16px;min-height:44px;display:inline-flex;align-items:center;text-decoration:none!important;font-weight:600}
+.st-key-primary_link a:hover{background:#712231}
+.st-key-primary_link a p{color:#fff!important}
+/* Native Markdown heading defaults otherwise override the matchup's own hierarchy. */
+[data-testid="stMarkdownContainer"] h2.mdl-fighter-name{font-family:'IBM Plex Sans Condensed','Arial Narrow',sans-serif!important;font-size:48px!important;line-height:1.05!important;font-weight:700!important;padding:0!important;margin:0 0 12px!important}
+[data-testid="stMarkdownContainer"] .mdl-decision h2{padding:0!important;margin:8px 0 12px!important}
+[data-testid="stMarkdownContainer"] .mdl-policy h3{padding:0!important;margin:0 0 6px!important}
+[data-testid="stMarkdownContainer"] .mdl-comparison th,[data-testid="stMarkdownContainer"] .mdl-comparison td{border-left:0;border-right:0}
+[data-testid="stMarkdownContainer"] .mdl-comparison .mdl-group th{text-align:left;background:#E8EDF1;padding-top:12px;padding-bottom:12px}
+.st-key-context_bar{margin-bottom:12px}
+.st-key-work_surface{background:#fff;border-radius:10px;padding:24px}
+.st-key-assumption_editor{background:#fff;border-radius:10px;padding:24px}
+@media(min-width:601px){[data-testid="stSidebar"][data-collapsed="false"]{width:236px!important;min-width:236px!important;max-width:236px!important}}
+@media(max-width:1024px){[data-testid="stMainBlockContainer"]{padding:3rem 2rem 3rem}}
+@media(max-width:600px){[data-testid="stMainBlockContainer"]{padding:3rem 1rem 3rem}.st-key-work_surface,.st-key-assumption_editor{padding:16px}}
+@media(max-width:600px){[data-testid="stMarkdownContainer"] h2.mdl-fighter-name{font-size:34px!important}}
+@media(max-width:1024px){.st-key-context_bar [data-testid="stHorizontalBlock"]{flex-wrap:nowrap!important;gap:8px!important}.st-key-context_bar [data-testid="stColumn"]{min-width:0!important;flex:1 1 auto!important}.st-key-context_bar [data-testid="stColumn"]:last-child{flex:0 0 140px!important}.st-key-context_bar button{font-size:13px!important;min-height:40px}}
+/* Matchup reflow follows its real content width, including an open tablet sidebar. */
+.mdl-matchup{container-type:inline-size}
+@container(max-width:720px){.mdl-fighters{grid-template-columns:1fr;gap:12px}.mdl-versus{text-align:left}}

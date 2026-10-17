@@ -1,0 +1,280 @@
+{
+  "scope": "All existing raw snapshot hashes; 8420 persisted feature vectors; unchanged persisted model; example tree, Monte Carlo, calibration and partitions. No fitting.",
+  "data_quality": {
+    "input_fights": 8962,
+    "retained_fights": 8420,
+    "excluded_fights": 542,
+    "exclusion_rate": 0.060477571970542286,
+    "round_rows": 40068,
+    "fighter_count": 4628,
+    "ambiguous_names": [
+      "Anthony Figueroa",
+      "Anthony Romero",
+      "Bruno Silva",
+      "Jean Silva",
+      "Joey Gomez",
+      "Michael McDonald",
+      "Mike Davis",
+      "Tony Johnson",
+      "Victor Valenzuela"
+    ],
+    "first_date": "1999-07-16",
+    "last_date": "2026-10-10",
+    "missing_fraction": {
+      "sig_landed": 0.0,
+      "sig_attempted": 0.0,
+      "td_landed": 0.0,
+      "td_attempted": 0.0,
+      "distance_landed": 0.0,
+      "distance_attempted": 0.0,
+      "clinch_landed": 0.0,
+      "clinch_attempted": 0.0,
+      "ground_landed": 0.0,
+      "ground_attempted": 0.0,
+      "knockdowns": 0.0,
+      "submission_attempts": 0.0,
+      "control_seconds": 0.00011876484560570071
+    },
+    "exclusion_reasons": {
+      "Unsupported round format": 251,
+      "Excluded nonbinary outcome": 150,
+      "Missing or ambiguous fighter source identity": 63,
+      "Ambiguous duplicate source ID or event/bout key; all copies excluded": 52,
+      "Excluded disqualification": 24,
+      "'UFC - Road to UFC 4.6'": 2
+    },
+    "transform_version": "0.1.0"
+  },
+  "checks": {
+    "all_historical_features": {
+      "rows": 8420,
+      "features": 10,
+      "max_absolute_error": 1.7053025658242404e-13,
+      "nan_pattern_identical": true
+    },
+    "example_profiles": {
+      "a": {
+        "name": "Khabib Nurmagomedov",
+        "denominators": {
+          "prior_fights": 10,
+          "wins": 10,
+          "observed_minutes": 135.2,
+          "strike_attempts": 1204.0,
+          "td_attempts": 109.0,
+          "sub_exposure_minutes": 135.2,
+          "control_exposure_minutes": 135.2
+        },
+        "max_feature_error": 8.881784197001252e-16
+      },
+      "b": {
+        "name": "Conor McGregor",
+        "denominators": {
+          "prior_fights": 10,
+          "wins": 9,
+          "observed_minutes": 81.3,
+          "strike_attempts": 993.0,
+          "td_attempts": 8.0,
+          "sub_exposure_minutes": 81.3,
+          "control_exposure_minutes": 81.3
+        },
+        "max_feature_error": 1.1102230246251565e-16
+      }
+    },
+    "example_raw_csv_reconciliation": {
+      "a": {
+        "name": "Khabib Nurmagomedov",
+        "bout_count": 10,
+        "raw_round_rows": 29,
+        "raw_minutes": 135.2,
+        "raw_wins": 10,
+        "raw_counts": {
+          "sig_landed": 587,
+          "sig_attempted": 1204,
+          "td_landed": 49,
+          "td_attempted": 109
+        },
+        "all_counts_equal_saved_profile": true,
+        "minutes_absolute_error": 0.0,
+        "wins_equal_saved": true
+      },
+      "b": {
+        "name": "Conor McGregor",
+        "bout_count": 10,
+        "raw_round_rows": 20,
+        "raw_minutes": 81.3,
+        "raw_wins": 9,
+        "raw_counts": {
+          "sig_landed": 473,
+          "sig_attempted": 993,
+          "td_landed": 5,
+          "td_attempted": 8
+        },
+        "all_counts_equal_saved_profile": true,
+        "minutes_absolute_error": 0.0,
+        "wins_equal_saved": true
+      }
+    },
+    "features_ids_match_retained_bouts": true,
+    "target_matches_source_outcome": true,
+    "partitions": {
+      "summary": {
+        "test": {
+          "n": 527,
+          "start": "2016-11-19",
+          "end": "2018-09-22"
+        },
+        "train": {
+          "n": 1257,
+          "start": "2000-09-22",
+          "end": "2015-01-31"
+        },
+        "validation": {
+          "n": 493,
+          "start": "2015-02-14",
+          "end": "2016-11-12"
+        }
+      },
+      "matches_saved_summary": true,
+      "unique_fights": true,
+      "all_strictly_before_cutoff": true,
+      "date_blocks_do_not_overlap": true,
+      "exact_expected_membership": true
+    },
+    "test_metrics": {
+      "independent": {
+        "brier": 0.24252349148652297,
+        "log_loss": 0.6780815899690934,
+        "accuracy": 0.571157495256167,
+        "auc": 0.6008036640165918
+      },
+      "max_error": 0.0,
+      "coin_max_error": 0.0,
+      "brier_difference_95_interval": [
+        -0.01619911667044158,
+        0.0007691930678525145
+      ],
+      "interval_max_error": 3.469446951953614e-18,
+      "supported": false
+    },
+    "calibration": {
+      "bins": 6,
+      "n": 527,
+      "max_absolute_error": 1.1102230246251565e-16,
+      "sparse_bins": [
+        4,
+        7
+      ],
+      "limitation": "Descriptive observed proportions from held-out bouts; small bins and serial fighter dependence preclude a guarantee of calibration."
+    },
+    "baseline": {
+      "probability": 0.6858367292839322,
+      "absolute_error": 0.0,
+      "bootstrap_models": 64,
+      "interval_max_error": 1.1102230246251565e-16,
+      "swap_complement_error": 0.0
+    },
+    "decision_tree": {
+      "terminal_rows": 18,
+      "max_error_vs_independent_equation": 0.0,
+      "max_error_api": 0.0,
+      "joint_mass_error": 0.0,
+      "tree_utility_error": 1.1102230246251565e-16
+    },
+    "simulation": {
+      "summary": {
+        "rows": 3,
+        "max_numeric_error": 2.220446049250313e-16
+      },
+      "pairwise": {
+        "rows": 3,
+        "max_numeric_error": 2.1640675362810669e-16
+      },
+      "convergence": {
+        "rows": 9,
+        "max_numeric_error": 1.1102230246251565e-16
+      },
+      "independent_equation": {
+        "all_draws_max_error": 0.0,
+        "summary_max_error": 0.0
+      },
+      "invariants": {
+        "finite_and_strict_probability_bounds": true,
+        "rank_share_sum_error": 0.0,
+        "all_regrets_nonnegative": true
+      }
+    },
+    "one_way": {
+      "nodes": 61,
+      "max_error_vs_independent_equation": 0.0
+    },
+    "two_way": {
+      "nodes": 625,
+      "max_error_vs_independent_equation": 0.0
+    },
+    "sensitivity_labels": {
+      "thresholds_equal": true,
+      "all_region_labels_equal": true
+    },
+    "raw_model_and_feature_bytes_unchanged": true
+  },
+  "scientific_limitations": [
+    {
+      "severity": "material limitation",
+      "finding": "No demonstrated Brier improvement over 0.5 at 95% confidence; supported=false is correct.",
+      "evidence": {
+        "independent": {
+          "brier": 0.24252349148652297,
+          "log_loss": 0.6780815899690934,
+          "accuracy": 0.571157495256167,
+          "auc": 0.6008036640165918
+        },
+        "max_error": 0.0,
+        "coin_max_error": 0.0,
+        "brier_difference_95_interval": [
+          -0.01619911667044158,
+          0.0007691930678525145
+        ],
+        "interval_max_error": 3.469446951953614e-18,
+        "supported": false
+      },
+      "remedy": "Keep exploratory status visible. Further validation/model development is separate scientific work and would change analytical results."
+    },
+    {
+      "severity": "material limitation",
+      "finding": "Pooled division and scheduled-round contexts are not predictors; all profiles count retained bouts across prior divisions.",
+      "evidence": "forecasting.py evaluation.scope; features.py PROFILE_FEATURES; worked example B has historical Featherweight, Lightweight and Welterweight bouts.",
+      "remedy": "Clarify context selectors and retained-bout scope in presentation; do not imply contextual effects have been estimated."
+    },
+    {
+      "severity": "material limitation",
+      "finding": "Tactical effects, allocations and opponent response distribution are engineering assumptions; bands and rank shares are conditional on those assumptions.",
+      "evidence": "decision.py adjustments; simulation.py shared baseline and independent triangular/Dirichlet streams.",
+      "remedy": "Retain explicit assumption and uncertainty labels; no causal/optimal strategy claim."
+    },
+    {
+      "severity": "limitation",
+      "finding": "Bout bootstrap and Wilson bands ignore serial fighter dependence, and historical archival data are a modern snapshot rather than records frozen as-of the reference date.",
+      "remedy": "Keep current limitations. Clustered temporal validation and as-was archive require separately authorized scientific changes."
+    }
+  ],
+  "demonstrated_defects": [
+    {
+      "severity": "low / wording",
+      "file": "src/mma_decision_lab/analysis.py",
+      "line": 59,
+      "finding": "Historical forecast error text implies two earlier bouts in the selected last division. Actual eligibility requires two retained earlier bouts overall and the selected division to equal the last recorded division.",
+      "remedy": "Clarify eligibility wording without changing calculations, predictions, versions or scientific scope."
+    }
+  ],
+  "numeric_audit_passed": true,
+  "artifact_hashes": {
+    "models\\baseline.json": "cbe099ce5bc15d3ffd707c431f853bf48b49dcabd4ab664f7f35b494e2cbad5e",
+    "data\\processed\\features.csv": "db6750a37d29413ee189757c5c9f351c6a1abbab3285f1d3f2afc77dbf590562",
+    "data\\raw\\LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "data\\raw\\README.md": "c06ba3cc5d4586ebab9485f08b8f444d8171c364281fc01a97a63302405e979f",
+    "data\\raw\\ufc_event_details.csv": "f8dc81682ed176b1a6bb32dfee19cdbe41eca704db57566d60f74ae43052cc40",
+    "data\\raw\\ufc_fighter_details.csv": "a1f6e4326217fab9734ac42f1958cd07b0b2b98f3caa5da08497ec7648eb6f70",
+    "data\\raw\\ufc_fight_results.csv": "e1616c4378d78771d4e308df67a9f1dcc41fa951a21783d1864eef2e94156974",
+    "data\\raw\\ufc_fight_stats.csv": "758ca57cb4c11b9cfdd33c649c8938ddff920495339e5070014590eb17865c2f"
+  }
+}

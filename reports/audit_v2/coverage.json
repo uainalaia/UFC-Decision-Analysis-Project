@@ -1,0 +1,2308 @@
+{
+  "version": 1,
+  "artifact": {
+    "identity": "MMA Decision Lab v2",
+    "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+    "view": "Frozen snapshot greco-5e38ebeb9bb8; eight views and declared reference scenarios"
+  },
+  "categories": [
+    {
+      "id": "sources",
+      "label": "Source authority and confidence",
+      "applicable": true,
+      "assessment": "Archive hashes and implementation bindings are checked. Full reconciliation against primary UFCStats records remains outstanding; assumed effects have no empirical authority."
+    },
+    {
+      "id": "values",
+      "label": "SQL/value accuracy",
+      "applicable": true,
+      "assessment": "Independent reproduction covers the historical profiles, baseline, calibration, tree, all reference Monte Carlo draws and sensitivity grids. Regression preserves the saved reference within 1e-12 (feature accumulation maximum 1.71e-13)."
+    },
+    {
+      "id": "within",
+      "label": "Within-chart agreement",
+      "applicable": true,
+      "assessment": "Numerical chart encodings are covered by focused tests. Representative desktop/mobile plots and labels were inspected; no fabricated leader is assigned to exact ties."
+    },
+    {
+      "id": "details",
+      "label": "Complete source details",
+      "applicable": true,
+      "assessment": "Profiles, contributing bouts, denominators, partitions, assumptions, exclusions and reproducibility records remain inspectable. Separate custom sensitivity scopes are explicitly labeled."
+    },
+    {
+      "id": "cross",
+      "label": "Cross-artifact consistency",
+      "applicable": true,
+      "assessment": "Context, configuration identity, current/previous status and copied HTML/JSON/CSV/ZIP records are tested together. The existing numerical engine and source/model bytes are preserved."
+    },
+    {
+      "id": "quality",
+      "label": "Data-quality controls",
+      "applicable": true,
+      "assessment": "Earlier-date, same-day, missing-denominator, malformed-count, identity, format and outcome rules are tested. Primary-source reconciliation is outside the verified archive scope."
+    },
+    {
+      "id": "conclusion",
+      "label": "Conclusion support",
+      "applicable": true,
+      "assessment": "Neutral equality and exploratory support status are preserved. A computed mean leader or colored grid region is not a causal or robust tactical recommendation."
+    },
+    {
+      "id": "clarity",
+      "label": "Analytical clarity",
+      "applicable": true,
+      "assessment": "Eight purposes have distinct navigation, full matchup context and next actions. Observed, estimated, assumed and calculated information use explicit nearby language."
+    },
+    {
+      "id": "visual",
+      "label": "Visual and interaction consistency",
+      "applicable": true,
+      "assessment": "Eight views inspected; four representative views at all five requested resolutions. Contrast and keyboard focus measured. True 200% embedded-browser zoom and screen-reader behavior remain unverified."
+    },
+    {
+      "id": "useful",
+      "label": "Dashboard usefulness and completeness",
+      "applicable": true,
+      "assessment": "The eight existing functions, staged inputs, explicit calculations, sensitivity and four export formats remain available. Native multi-file upload, snapshot validation, result/export invalidation and source restoration were observed with explicitly synthetic test files."
+    }
+  ],
+  "units": [
+    {
+      "id": "fight-brief",
+      "label": "Fight brief",
+      "kind": "component",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "sources": {
+          "checks": [
+            {
+              "id": "fight-brief-sources",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "fight-brief-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "fight-brief-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "fight-brief-useful",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "fighter-comparison",
+      "label": "Earlier-date comparison table",
+      "kind": "component",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "sources": {
+          "checks": [
+            {
+              "id": "fighter-comparison-sources",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "values": {
+          "checks": [
+            {
+              "id": "fighter-comparison-values",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "details": {
+          "checks": [
+            {
+              "id": "fighter-comparison-details",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "fighter-comparison-cross",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "fighter-comparison-quality",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "fighter-comparison-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "fighter-comparison-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "fighter-comparison-useful",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "fighter-rate-figure",
+      "label": "Unit-specific fighter rate plots",
+      "kind": "component",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "values": {
+          "checks": [
+            {
+              "id": "fighter-rate-figure-values",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "fighter-rate-figure-within",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "details": {
+          "checks": [
+            {
+              "id": "fighter-rate-figure-details",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "fighter-rate-figure-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "fighter-rate-figure-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "baseline-summary",
+      "label": "Historical baseline and held-out comparison",
+      "kind": "component",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "sources": {
+          "checks": [
+            {
+              "id": "baseline-summary-sources",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "values": {
+          "checks": [
+            {
+              "id": "baseline-summary-values",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "baseline-summary-cross",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "baseline-summary-quality",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "baseline-summary-conclusion",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "baseline-summary-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "calibration",
+      "label": "Calibration figure and bin counts",
+      "kind": "component",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "sources": {
+          "checks": [
+            {
+              "id": "calibration-sources",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "values": {
+          "checks": [
+            {
+              "id": "calibration-values",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "calibration-within",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "details": {
+          "checks": [
+            {
+              "id": "calibration-details",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "calibration-quality",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "calibration-conclusion",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "calibration-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "calibration-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "tree",
+      "label": "Decision tree and terminal branches",
+      "kind": "component",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "sources": {
+          "checks": [
+            {
+              "id": "tree-sources",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "values": {
+          "checks": [
+            {
+              "id": "tree-values",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "tree-within",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "details": {
+          "checks": [
+            {
+              "id": "tree-details",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "tree-cross",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "tree-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "tree-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "tree-useful",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "utilities",
+      "label": "Utility intervals and result table",
+      "kind": "component",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "sources": {
+          "checks": [
+            {
+              "id": "utilities-sources",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "values": {
+          "checks": [
+            {
+              "id": "utilities-values",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "utilities-within",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "details": {
+          "checks": [
+            {
+              "id": "utilities-details",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "utilities-cross",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "utilities-conclusion",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "utilities-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "utilities-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "utilities-useful",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "uncertainty",
+      "label": "Utility uncertainty distributions and controlled SDs",
+      "kind": "component",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "values": {
+          "checks": [
+            {
+              "id": "uncertainty-values",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "uncertainty-within",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "uncertainty-cross",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "uncertainty-conclusion",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "uncertainty-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "uncertainty-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "pairwise",
+      "label": "Paired utility comparisons",
+      "kind": "component",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "values": {
+          "checks": [
+            {
+              "id": "pairwise-values",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "details": {
+          "checks": [
+            {
+              "id": "pairwise-details",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "pairwise-cross",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "pairwise-conclusion",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "pairwise-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "pairwise-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "convergence",
+      "label": "Monte Carlo convergence figure",
+      "kind": "component",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "values": {
+          "checks": [
+            {
+              "id": "convergence-values",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "convergence-within",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "convergence-cross",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "convergence-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "convergence-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "oneway",
+      "label": "One-way sensitivity and crossover record",
+      "kind": "component",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "sources": {
+          "checks": [
+            {
+              "id": "oneway-sources",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "values": {
+          "checks": [
+            {
+              "id": "oneway-values",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "oneway-within",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "details": {
+          "checks": [
+            {
+              "id": "oneway-details",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "oneway-cross",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "oneway-conclusion",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "oneway-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "oneway-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "oneway-useful",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "regions",
+      "label": "Two-way decision regions and current point",
+      "kind": "component",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "sources": {
+          "checks": [
+            {
+              "id": "regions-sources",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "values": {
+          "checks": [
+            {
+              "id": "regions-values",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "regions-within",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "details": {
+          "checks": [
+            {
+              "id": "regions-details",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "regions-cross",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "regions-conclusion",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "regions-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "regions-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "regions-useful",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "tornado",
+      "label": "Reference-policy sensitivity figure",
+      "kind": "component",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "values": {
+          "checks": [
+            {
+              "id": "tornado-values",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "within": {
+          "checks": [
+            {
+              "id": "tornado-within",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "details": {
+          "checks": [
+            {
+              "id": "tornado-details",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "tornado-cross",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "tornado-conclusion",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "tornado-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "tornado-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "tactical-editor",
+      "label": "Persistent tactical draft / apply / cancel",
+      "kind": "control",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "sources": {
+          "checks": [
+            {
+              "id": "tactical-editor-sources",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "tactical-editor-quality",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "tactical-editor-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "tactical-editor-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "tactical-editor-useful",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "matchup-editor",
+      "label": "Matchup, order, cutoff and baseline editor",
+      "kind": "control",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "quality": {
+          "checks": [
+            {
+              "id": "matchup-editor-quality",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "matchup-editor-cross",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "matchup-editor-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "matchup-editor-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "matchup-editor-useful",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "analysis-state",
+      "label": "Empty, running, stale, failed and recovered results",
+      "kind": "control",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "cross": {
+          "checks": [
+            {
+              "id": "analysis-state-cross",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "analysis-state-quality",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "analysis-state-conclusion",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "analysis-state-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "analysis-state-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "analysis-state-useful",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "data-quality",
+      "label": "Snapshot counts, missingness and exclusions",
+      "kind": "component",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "sources": {
+          "checks": [
+            {
+              "id": "data-quality-sources",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "values": {
+          "checks": [
+            {
+              "id": "data-quality-values",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "details": {
+          "checks": [
+            {
+              "id": "data-quality-details",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "data-quality-quality",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "data-quality-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "data-quality-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "data-quality-useful",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "exports",
+      "label": "Immutable offline HTML, CSV, JSON and ZIP",
+      "kind": "comparison",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "sources": {
+          "checks": [
+            {
+              "id": "exports-sources",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "values": {
+          "checks": [
+            {
+              "id": "exports-values",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "details": {
+          "checks": [
+            {
+              "id": "exports-details",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "cross": {
+          "checks": [
+            {
+              "id": "exports-cross",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/numbers.json",
+                "reports/audit_v2/tests_after.xml",
+                "reports/audit_v2/final_affected.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "exports-conclusion",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "exports-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "exports-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "exports-useful",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "methodology",
+      "label": "Methodology, references and scientific limitations",
+      "kind": "claim",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "sources": {
+          "checks": [
+            {
+              "id": "methodology-sources",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "details": {
+          "checks": [
+            {
+              "id": "methodology-details",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "conclusion": {
+          "checks": [
+            {
+              "id": "methodology-conclusion",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "clarity": {
+          "checks": [
+            {
+              "id": "methodology-clarity",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "visual": {
+          "checks": [
+            {
+              "id": "methodology-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/browser_checks.json",
+                "reports/review_v2/after/",
+                "reports/review_v2/contrast.json",
+                "reports/review_v2/accessibility_checks.json",
+                "tests/test_charts_v2.py",
+                "tests/test_app.py"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "methodology-useful",
+              "state": "passed",
+              "evidence": [
+                "reports/audit_v2/claims.md",
+                "docs/REDESIGN_V2.md",
+                "reports/audit_v2/tests_after.xml"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "primary-reconciliation",
+      "label": "Complete reconciliation against primary UFCStats records",
+      "kind": "question",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "sources": {
+          "checks": [
+            {
+              "id": "primary-reconciliation-sources",
+              "state": "unverified",
+              "evidence": []
+            }
+          ],
+          "findings": []
+        },
+        "quality": {
+          "checks": [
+            {
+              "id": "primary-reconciliation-quality",
+              "state": "unverified",
+              "evidence": []
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "assistive-session",
+      "label": "Full screen-reader interaction session",
+      "kind": "question",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "assistive-session-visual",
+              "state": "unverified",
+              "evidence": []
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "real-zoom",
+      "label": "Actual 200% browser zoom",
+      "kind": "question",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "real-zoom-visual",
+              "state": "unverified",
+              "evidence": []
+            }
+          ],
+          "findings": []
+        }
+      }
+    },
+    {
+      "id": "native-import-picker",
+      "label": "Native file-picker upload interaction",
+      "kind": "control",
+      "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4",
+      "categories": {
+        "visual": {
+          "checks": [
+            {
+              "id": "native-import-picker-visual",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/import_checks.json"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        },
+        "useful": {
+          "checks": [
+            {
+              "id": "native-import-picker-useful",
+              "state": "passed",
+              "evidence": [
+                "reports/review_v2/import_checks.json"
+              ],
+              "revision": "698bf16b1d2ba3870dd58376e7b1766af95931943fbcc9fa5db5f4c1c540f2e4"
+            }
+          ],
+          "findings": []
+        }
+      }
+    }
+  ]
+}

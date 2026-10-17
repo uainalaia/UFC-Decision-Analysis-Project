@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "pdf_sha256": "2633ea39cfbb66d3058421a13bf0e9949470dfcb7025b41f68b404d4619dd8ed",
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+  ],
+  "method": "All 20 pages rendered with Poppler at 120 dpi and visually inspected in contact sheets; changed and detailed pages additionally inspected at full rendered size.",
+  "repairs": [
+    "Preserved full chart aspect ratios and labels",
+    "Shortened overflowing diagram captions",
+    "Reframed the real report-download screenshot",
+    "Increased separation from the footer",
+    "Clarified rounding in the paired difference example"
+  ],
+  "checks": [
+    "Readable accents and symbols",
+    "Legible tables and legends",
+    "No clipped headings or diagram labels",
+    "No content overlaps with footers",
+    "Real GUI preset and numerical output agree"
+  ]
+}

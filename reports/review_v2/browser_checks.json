@@ -1,0 +1,221 @@
+{
+  "scope": "Four representative views at five required sizes, plus four remaining views at desktop; exact applied context visible; no page horizontal overflow.",
+  "checks": [
+    {
+      "buttonTop": 64,
+      "context": "Fight brief\n\nChange matchup\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 1194,
+      "scroll": 1440,
+      "view": "Fight brief",
+      "width": 1440
+    },
+    {
+      "buttonTop": 64,
+      "context": "Fighter evidence\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 1194,
+      "scroll": 1440,
+      "view": "Fighter evidence",
+      "width": 1440
+    },
+    {
+      "buttonTop": 64,
+      "context": "Outcome analysis\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 1194,
+      "scroll": 1440,
+      "view": "Outcome analysis",
+      "width": 1440
+    },
+    {
+      "buttonTop": 64,
+      "context": "Sensitivity\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 1194,
+      "scroll": 1440,
+      "view": "Sensitivity",
+      "width": 1440
+    },
+    {
+      "buttonTop": 64,
+      "context": "Fight brief\n\nChange matchup\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 1034,
+      "scroll": 1280,
+      "view": "Fight brief",
+      "width": 1280
+    },
+    {
+      "buttonTop": 64,
+      "context": "Fighter evidence\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 1034,
+      "scroll": 1280,
+      "view": "Fighter evidence",
+      "width": 1280
+    },
+    {
+      "buttonTop": 64,
+      "context": "Outcome analysis\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 1034,
+      "scroll": 1280,
+      "view": "Outcome analysis",
+      "width": 1280
+    },
+    {
+      "buttonTop": 64,
+      "context": "Sensitivity\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 1034,
+      "scroll": 1280,
+      "view": "Sensitivity",
+      "width": 1280
+    },
+    {
+      "buttonTop": 72,
+      "context": "Fight brief\n\nChange matchup\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 778,
+      "scroll": 1024,
+      "view": "Fight brief",
+      "width": 1024
+    },
+    {
+      "buttonTop": 72,
+      "context": "Fighter evidence\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 778,
+      "scroll": 1024,
+      "view": "Fighter evidence",
+      "width": 1024
+    },
+    {
+      "buttonTop": 72,
+      "context": "Outcome analysis\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 778,
+      "scroll": 1024,
+      "view": "Outcome analysis",
+      "width": 1024
+    },
+    {
+      "buttonTop": 72,
+      "context": "Sensitivity\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 778,
+      "scroll": 1024,
+      "view": "Sensitivity",
+      "width": 1024
+    },
+    {
+      "buttonTop": 72,
+      "context": "Fight brief\n\nChange matchup\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 522,
+      "scroll": 768,
+      "view": "Fight brief",
+      "width": 768
+    },
+    {
+      "buttonTop": 72,
+      "context": "Fighter evidence\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 522,
+      "scroll": 768,
+      "view": "Fighter evidence",
+      "width": 768
+    },
+    {
+      "buttonTop": 72,
+      "context": "Outcome analysis\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 522,
+      "scroll": 768,
+      "view": "Outcome analysis",
+      "width": 768
+    },
+    {
+      "buttonTop": 72,
+      "context": "Sensitivity\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 522,
+      "scroll": 768,
+      "view": "Sensitivity",
+      "width": 768
+    },
+    {
+      "buttonTop": 72,
+      "context": "Fight brief\n\nChange matchup\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 380,
+      "scroll": 390,
+      "view": "Fight brief",
+      "width": 390
+    },
+    {
+      "buttonTop": 90,
+      "context": "Fighter evidence\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 380,
+      "scroll": 390,
+      "view": "Fighter evidence",
+      "width": 390
+    },
+    {
+      "buttonTop": 90,
+      "context": "Outcome analysis\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 380,
+      "scroll": 390,
+      "view": "Outcome analysis",
+      "width": 390
+    },
+    {
+      "buttonTop": 72,
+      "context": "Sensitivity\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 380,
+      "scroll": 390,
+      "view": "Sensitivity",
+      "width": 390
+    },
+    {
+      "buttonTop": 64,
+      "context": "Tactical model\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 1194,
+      "scroll": 1440,
+      "view": "Tactical model",
+      "width": 1440
+    },
+    {
+      "buttonTop": 64,
+      "context": "Validation\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 1194,
+      "scroll": 1440,
+      "view": "Validation",
+      "width": 1440
+    },
+    {
+      "buttonTop": 64,
+      "context": "Research report\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 1194,
+      "scroll": 1440,
+      "view": "Research report",
+      "width": 1440
+    },
+    {
+      "buttonTop": 64,
+      "context": "Methodology\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+      "errors": 0,
+      "main": 1194,
+      "scroll": 1440,
+      "view": "Methodology",
+      "width": 1440
+    }
+  ]
+}

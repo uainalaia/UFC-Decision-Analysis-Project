@@ -1,0 +1,100 @@
+{
+  "body on workspace": {
+    "foreground": "#172126",
+    "background": "#F3F5F7",
+    "ratio": 14.989,
+    "required": 4.5,
+    "passes": true
+  },
+  "body on surface": {
+    "foreground": "#172126",
+    "background": "#FFFFFF",
+    "ratio": 16.381,
+    "required": 4.5,
+    "passes": true
+  },
+  "supporting on workspace": {
+    "foreground": "#59656F",
+    "background": "#F3F5F7",
+    "ratio": 5.465,
+    "required": 4.5,
+    "passes": true
+  },
+  "supporting on surface": {
+    "foreground": "#59656F",
+    "background": "#FFFFFF",
+    "ratio": 5.973,
+    "required": 4.5,
+    "passes": true
+  },
+  "navigation white": {
+    "foreground": "#FFFFFF",
+    "background": "#20282E",
+    "ratio": 14.953,
+    "required": 4.5,
+    "passes": true
+  },
+  "navigation supporting": {
+    "foreground": "#AEB9C2",
+    "background": "#20282E",
+    "ratio": 7.49,
+    "required": 4.5,
+    "passes": true
+  },
+  "action text": {
+    "foreground": "#FFFFFF",
+    "background": "#882A3A",
+    "ratio": 8.61,
+    "required": 4.5,
+    "passes": true
+  },
+  "warning text": {
+    "foreground": "#765415",
+    "background": "#FFF5DF",
+    "ratio": 6.355,
+    "required": 4.5,
+    "passes": true
+  },
+  "input boundary": {
+    "foreground": "#7A8791",
+    "background": "#FFFFFF",
+    "ratio": 3.683,
+    "required": 3,
+    "passes": true
+  },
+  "focus on workspace": {
+    "foreground": "#2457A6",
+    "background": "#F3F5F7",
+    "ratio": 6.429,
+    "required": 3,
+    "passes": true
+  },
+  "Striking priority on white": {
+    "foreground": "#2457A6",
+    "background": "#FFFFFF",
+    "ratio": 7.026,
+    "required": 4.5,
+    "passes": true
+  },
+  "Grappling priority on white": {
+    "foreground": "#007A71",
+    "background": "#FFFFFF",
+    "ratio": 5.221,
+    "required": 4.5,
+    "passes": true
+  },
+  "Balanced priority on white": {
+    "foreground": "#925A08",
+    "background": "#FFFFFF",
+    "ratio": 5.694,
+    "required": 4.5,
+    "passes": true
+  },
+  "No robust preference on white": {
+    "foreground": "#6A737D",
+    "background": "#FFFFFF",
+    "ratio": 4.815,
+    "required": 4.5,
+    "passes": true
+  }
+}

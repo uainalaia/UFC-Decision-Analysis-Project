@@ -1,0 +1,172 @@
+{
+  "all_historical_features": {
+    "rows": 8420,
+    "features": 10,
+    "max_absolute_error": 1.7053025658242404e-13,
+    "nan_pattern_identical": true
+  },
+  "example_profiles": {
+    "a": {
+      "name": "Khabib Nurmagomedov",
+      "denominators": {
+        "prior_fights": 10,
+        "wins": 10,
+        "observed_minutes": 135.2,
+        "strike_attempts": 1204.0,
+        "td_attempts": 109.0,
+        "sub_exposure_minutes": 135.2,
+        "control_exposure_minutes": 135.2
+      },
+      "max_feature_error": 8.881784197001252e-16
+    },
+    "b": {
+      "name": "Conor McGregor",
+      "denominators": {
+        "prior_fights": 10,
+        "wins": 9,
+        "observed_minutes": 81.3,
+        "strike_attempts": 993.0,
+        "td_attempts": 8.0,
+        "sub_exposure_minutes": 81.3,
+        "control_exposure_minutes": 81.3
+      },
+      "max_feature_error": 1.1102230246251565e-16
+    }
+  },
+  "example_raw_csv_reconciliation": {
+    "a": {
+      "name": "Khabib Nurmagomedov",
+      "bout_count": 10,
+      "raw_round_rows": 29,
+      "raw_minutes": 135.2,
+      "raw_wins": 10,
+      "raw_counts": {
+        "sig_landed": 587,
+        "sig_attempted": 1204,
+        "td_landed": 49,
+        "td_attempted": 109
+      },
+      "all_counts_equal_saved_profile": true,
+      "minutes_absolute_error": 0.0,
+      "wins_equal_saved": true
+    },
+    "b": {
+      "name": "Conor McGregor",
+      "bout_count": 10,
+      "raw_round_rows": 20,
+      "raw_minutes": 81.3,
+      "raw_wins": 9,
+      "raw_counts": {
+        "sig_landed": 473,
+        "sig_attempted": 993,
+        "td_landed": 5,
+        "td_attempted": 8
+      },
+      "all_counts_equal_saved_profile": true,
+      "minutes_absolute_error": 0.0,
+      "wins_equal_saved": true
+    }
+  },
+  "features_ids_match_retained_bouts": true,
+  "target_matches_source_outcome": true,
+  "partitions": {
+    "summary": {
+      "test": {
+        "n": 527,
+        "start": "2016-11-19",
+        "end": "2018-09-22"
+      },
+      "train": {
+        "n": 1257,
+        "start": "2000-09-22",
+        "end": "2015-01-31"
+      },
+      "validation": {
+        "n": 493,
+        "start": "2015-02-14",
+        "end": "2016-11-12"
+      }
+    },
+    "matches_saved_summary": true,
+    "unique_fights": true,
+    "all_strictly_before_cutoff": true,
+    "date_blocks_do_not_overlap": true,
+    "exact_expected_membership": true
+  },
+  "test_metrics": {
+    "independent": {
+      "brier": 0.24252349148652297,
+      "log_loss": 0.6780815899690934,
+      "accuracy": 0.571157495256167,
+      "auc": 0.6008036640165918
+    },
+    "max_error": 0.0,
+    "coin_max_error": 0.0,
+    "brier_difference_95_interval": [
+      -0.01619911667044158,
+      0.0007691930678525145
+    ],
+    "interval_max_error": 3.469446951953614e-18,
+    "supported": false
+  },
+  "calibration": {
+    "bins": 6,
+    "n": 527,
+    "max_absolute_error": 1.1102230246251565e-16,
+    "sparse_bins": [
+      4,
+      7
+    ],
+    "limitation": "Descriptive observed proportions from held-out bouts; small bins and serial fighter dependence preclude a guarantee of calibration."
+  },
+  "baseline": {
+    "probability": 0.6858367292839322,
+    "absolute_error": 0.0,
+    "bootstrap_models": 64,
+    "interval_max_error": 1.1102230246251565e-16,
+    "swap_complement_error": 0.0
+  },
+  "decision_tree": {
+    "terminal_rows": 18,
+    "max_error_vs_independent_equation": 0.0,
+    "max_error_api": 0.0,
+    "joint_mass_error": 0.0,
+    "tree_utility_error": 1.1102230246251565e-16
+  },
+  "simulation": {
+    "summary": {
+      "rows": 3,
+      "max_numeric_error": 2.220446049250313e-16
+    },
+    "pairwise": {
+      "rows": 3,
+      "max_numeric_error": 2.1640675362810669e-16
+    },
+    "convergence": {
+      "rows": 9,
+      "max_numeric_error": 1.1102230246251565e-16
+    },
+    "independent_equation": {
+      "all_draws_max_error": 0.0,
+      "summary_max_error": 0.0
+    },
+    "invariants": {
+      "finite_and_strict_probability_bounds": true,
+      "rank_share_sum_error": 0.0,
+      "all_regrets_nonnegative": true
+    }
+  },
+  "one_way": {
+    "nodes": 61,
+    "max_error_vs_independent_equation": 0.0
+  },
+  "two_way": {
+    "nodes": 625,
+    "max_error_vs_independent_equation": 0.0
+  },
+  "sensitivity_labels": {
+    "thresholds_equal": true,
+    "all_region_labels_equal": true
+  },
+  "raw_model_and_feature_bytes_unchanged": true
+}

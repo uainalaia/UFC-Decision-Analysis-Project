@@ -1,0 +1,46 @@
+[theme]
+primaryColor = "#882A3A"
+backgroundColor = "#F3F5F7"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#172126"
+font = "IBM Plex Sans"
+headingFont = "IBM Plex Sans"
+baseFontSize = 16
+baseRadius = "8px"
+buttonRadius = "6px"
+borderColor = "#7A8791"
+showWidgetBorder = true
+headingFontSizes = ["1.875rem", "1.375rem", "1.125rem"]
+headingFontWeights = [600, 600, 600]
+
+[[theme.fontFaces]]
+family = "IBM Plex Sans"
+url = "app/static/fonts/IBMPlexSans-Regular.woff2"
+weight = 400
+[[theme.fontFaces]]
+family = "IBM Plex Sans"
+url = "app/static/fonts/IBMPlexSans-SemiBold.woff2"
+weight = 600
+[[theme.fontFaces]]
+family = "IBM Plex Sans Condensed"
+url = "app/static/fonts/IBMPlexSansCondensed-Bold.woff2"
+weight = 700
+
+[theme.sidebar]
+backgroundColor = "#20282E"
+secondaryBackgroundColor = "#2B353D"
+textColor = "#FFFFFF"
+primaryColor = "#FFFFFF"
+borderColor = "#7A8791"
+
+[server]
+headless = true
+maxUploadSize = 12
+address = "127.0.0.1"
+enableStaticServing = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+showErrorDetails = "none"

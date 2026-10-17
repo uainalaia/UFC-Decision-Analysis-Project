@@ -1,0 +1,45 @@
+{
+  "all_unchanged": true,
+  "files": {
+    "models\\baseline.json": {
+      "expected": "cbe099ce5bc15d3ffd707c431f853bf48b49dcabd4ab664f7f35b494e2cbad5e",
+      "actual": "cbe099ce5bc15d3ffd707c431f853bf48b49dcabd4ab664f7f35b494e2cbad5e",
+      "unchanged": true
+    },
+    "data\\processed\\features.csv": {
+      "expected": "db6750a37d29413ee189757c5c9f351c6a1abbab3285f1d3f2afc77dbf590562",
+      "actual": "db6750a37d29413ee189757c5c9f351c6a1abbab3285f1d3f2afc77dbf590562",
+      "unchanged": true
+    },
+    "data\\raw\\LICENSE": {
+      "expected": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "actual": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+      "unchanged": true
+    },
+    "data\\raw\\README.md": {
+      "expected": "c06ba3cc5d4586ebab9485f08b8f444d8171c364281fc01a97a63302405e979f",
+      "actual": "c06ba3cc5d4586ebab9485f08b8f444d8171c364281fc01a97a63302405e979f",
+      "unchanged": true
+    },
+    "data\\raw\\ufc_event_details.csv": {
+      "expected": "f8dc81682ed176b1a6bb32dfee19cdbe41eca704db57566d60f74ae43052cc40",
+      "actual": "f8dc81682ed176b1a6bb32dfee19cdbe41eca704db57566d60f74ae43052cc40",
+      "unchanged": true
+    },
+    "data\\raw\\ufc_fighter_details.csv": {
+      "expected": "a1f6e4326217fab9734ac42f1958cd07b0b2b98f3caa5da08497ec7648eb6f70",
+      "actual": "a1f6e4326217fab9734ac42f1958cd07b0b2b98f3caa5da08497ec7648eb6f70",
+      "unchanged": true
+    },
+    "data\\raw\\ufc_fight_results.csv": {
+      "expected": "e1616c4378d78771d4e308df67a9f1dcc41fa951a21783d1864eef2e94156974",
+      "actual": "e1616c4378d78771d4e308df67a9f1dcc41fa951a21783d1864eef2e94156974",
+      "unchanged": true
+    },
+    "data\\raw\\ufc_fight_stats.csv": {
+      "expected": "758ca57cb4c11b9cfdd33c649c8938ddff920495339e5070014590eb17865c2f",
+      "actual": "758ca57cb4c11b9cfdd33c649c8938ddff920495339e5070014590eb17865c2f",
+      "unchanged": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "source": "Four explicitly SYNTHETIC fixture CSVs from tests/conftest.py; local session only; original source files untouched.",
+  "before": {
+    "currentReportDownloadButtons": 4
+  },
+  "afterSyntheticImport": {
+    "body": "Research report\n\nChange matchup\n\nTest Alpha vs Test Beta\n\nCutoff 1 Jan 2020\nLightweight\n3 scheduled rounds\nFocal fighter: Test Alpha\n\nRun the applied configuration before generating its research record.\n\nRun analysis in Outcome analysis\n\nFrozen snapshot local-b8299f4c5e6c · strictly earlier-date evidence · research prototype",
+    "context": "Research report\n\nChange matchup\n\nTest Alpha vs Test Beta\n\nCutoff 1 Jan 2020\nLightweight\n3 scheduled rounds\nFocal fighter: Test Alpha",
+    "downloadButtons": 0,
+    "errors": 0
+  },
+  "afterRestore": {
+    "context": "Validation\n\nChange matchup\n\nKhabib Nurmagomedov vs Conor McGregor\n\nCutoff 6 Oct 2018\nLightweight\n5 scheduled rounds\nFocal fighter: Khabib Nurmagomedov",
+    "errors": 0,
+    "footer": "Frozen snapshot greco-5e38ebeb9bb8 · strictly earlier-date evidence · research prototype"
+  },
+  "conclusion": "Native multi-file upload, validation, context replacement, result/export clearing and frozen-source restore observed without unhandled exceptions."
+}
